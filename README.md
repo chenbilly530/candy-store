@@ -1,3 +1,4 @@
 # candy-store
-Candy store micro-services
--- port 8080
+
+Candy service micro-services
+## run at port 8080
