@@ -1,0 +1,8 @@
+{
+  "name": "candy-inventory",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "./maven clean test",
+    "start:database": "bash start_db.sh"
+  }
+}
