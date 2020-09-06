@@ -1,0 +1,9 @@
+{
+  "name": "candy-order-service",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mvn clean test",
+    "start:database": "bash start_db.sh",
+    "start:activemq": "bash start_activemq.sh"
+  }
+}
