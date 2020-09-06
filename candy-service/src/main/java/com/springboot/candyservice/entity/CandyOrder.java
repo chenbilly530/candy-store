@@ -1,4 +1,4 @@
-package com.microservice.candyorderservice.entity;
+package com.springboot.candyservice.entity;
 
 import lombok.*;
 

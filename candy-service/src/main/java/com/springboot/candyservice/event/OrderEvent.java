@@ -1,18 +1,17 @@
-package com.microservice.candyorderservice.event;
+package com.springboot.candyservice.event;
 
-import com.microservice.candyorderservice.entity.CandyOrder;
+import com.springboot.candyservice.entity.CandyOrder;
 import lombok.*;
 
 import java.io.Serializable;
 import java.util.UUID;
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 public class OrderEvent implements Serializable {
-    static final long serialVersionUID = 6068603155243264383L;
+    static final long serialVersionUID = -3658680415926952163L;
 
     private UUID id;
 
